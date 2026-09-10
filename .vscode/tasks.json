@@ -4,29 +4,23 @@
         {
             "label": "Build and Run QuizFlow",
             "type": "shell",
-            "command": "gcc main.c -o main.exe; if ($LASTEXITCODE -eq 0) { .\\main.exe }",
+
+           "command": "chcp 65001 && gcc -finput-charset=UTF-8 main.c question.c quiz.c score.c -o quizflow.exe && quizflow.exe",
+
             "options": {
                 "cwd": "${workspaceFolder}",
                 "shell": {
-                    "executable": "powershell.exe",
-                    "args": [
-                        "-NoProfile",
-                        "-Command"
-                    ]
+                    "executable": "cmd.exe",
+                    "args": ["/c"]
                 }
             },
+
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "presentation": {
-                "reveal": "always",
-                "panel": "shared",
-                "clear": true
-            }
+
+            "problemMatcher": []
         }
     ]
 }
