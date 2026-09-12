@@ -29,10 +29,38 @@ void startQuiz()
     shuffleQuestions(questions,count);
 
     int score = 0;
+    int mode;
+    int practiceCount;
+
+printf("\n请选择练习模式：\n");
+printf("1. 快速练习（5题）\n");
+printf("2. 标准练习（10题）\n");
+printf("3. 全部题目\n");
+printf("请输入选择：");
+
+scanf("%d", &mode);
+
+if(mode == 1)
+{
+    practiceCount = count < 5 ? count : 5;
+}
+else if(mode == 2)
+{
+    practiceCount = count < 10 ? count : 10;
+}
+else if(mode == 3)
+{
+    practiceCount = count;
+}
+else
+{
+    printf("输入错误！\n");
+    return;
+}
 
 
 
-    for(int i=0;i<count;i++)
+  for(int i = 0; i < practiceCount; i++)
     {
 
         printf("\n第%d题：\n",
@@ -85,7 +113,7 @@ else
 }
     }
     printf("答题结束！\n");
-    printf("你的得分：%d/%d\n",score,count);
+    printf("你的得分：%d/%d\n", score, practiceCount);
    
     saveScore(score);
 

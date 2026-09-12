@@ -1,0 +1,4 @@
+﻿question,A,B,C,D,answer
+C语言中用于存储单个字符的数据类型是什么？,int,char,float,double,B
+scanf函数主要用于什么？,输出数据,判断条件,输入数据,定义变量,C
+C语言程序的入口函数是什么？,start(),begin(),main(),run(),C

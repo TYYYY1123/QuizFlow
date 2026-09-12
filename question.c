@@ -5,8 +5,8 @@
 int loadQuestions(Question questions[])
 {
     FILE *fp;
-
-    fp = fopen("questions.txt","r");
+    
+    fp = fopen("data/questions.txt","r");
 
 
     if(fp == NULL)
