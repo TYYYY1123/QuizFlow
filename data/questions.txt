@@ -20,39 +20,39 @@ D.run()
 C
 
 在C语言中，____可以把内容显示到屏幕上。
-A.scanf
-B.printf
-C.main
-D.char
-B
+A.printf
+B.char
+C.scanf
+D.main
+A
 
 ____常用于接收用户输入。
-A.strlen
-B.main
+A.main
+B.strlen
 C.scanf
 D.printf
 C
 
 ____变量适合保存单个字符。
-A.int
-B.double
-C.float
-D.char
-D
+A.float
+B.char
+C.double
+D.int
+B
 
 ____是C程序通常开始执行的函数。
-A.scanf
-B.printf
-C.start
-D.main
-D
+A.start
+B.scanf
+C.main
+D.printf
+C
 
 ____函数用于输出数据。
 A.main
-B.printf
-C.char
-D.scanf
-B
+B.scanf
+C.printf
+D.char
+C
 
 ____函数用于读取输入数据。
 A.main
@@ -63,59 +63,31 @@ B
 
 ____类型用于存储单个字符。
 A.char
-B.float
-C.double
+B.double
+C.float
 D.int
 A
 
 ____函数是C语言程序入口。
-A.start
-B.scanf
-C.main
-D.printf
-C
-
-____函数用于输出数据。
-A.char
-B.printf
-C.scanf
-D.main
-B
-
-____函数用于读取输入数据。
 A.main
-B.scanf
+B.start
 C.printf
-D.strlen
-B
-
-____类型用于存储单个字符。
-A.char
-B.double
-C.int
-D.float
+D.scanf
 A
 
-____函数是C语言程序入口。
-A.printf
-B.main
-C.scanf
-D.start
-B
-
 C语言中，____函数用于输出数据。
+A.printf
+B.char
+C.scanf
+D.main
+A
+
+____函数用于从标准输入读取数据。
 A.main
 B.printf
 C.scanf
-D.char
-B
-
-____函数用于从标准输入读取数据。
-A.printf
-B.strlen
-C.main
-D.scanf
-D
+D.strlen
+C
 
 ____类型可以存储单个字符。
 A.float
@@ -125,16 +97,16 @@ D.double
 B
 
 C语言程序从____函数开始执行。
-A.scanf
-B.start
-C.main
-D.printf
-C
+A.main
+B.printf
+C.scanf
+D.start
+A
 
 数组的第一个下标是____。
-A.-1
-B.0
-C.2
+A.0
+B.2
+C.-1
 D.1
-B
+A
 
